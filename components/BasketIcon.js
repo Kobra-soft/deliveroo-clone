@@ -3,7 +3,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { selectBasketItems, selectBasketTotal } from "../features/basketSlice";
 import { useNavigation } from "@react-navigation/native";
-import Currency from "react-currency-formatter-v2";
+/* import Currency from "react-currency-formatter-v2"; */
 
 const BasketIcon = () => {
   const items = useSelector(selectBasketItems);

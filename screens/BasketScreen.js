@@ -12,7 +12,7 @@ import {
 import { urlFor } from "../sanity";
 import { Ionicons } from "@expo/vector-icons";
 import ArrowLeftIcon from "../assets/arrow_left.svg";
-import Currency from "react-currency-formatter-v2";
+/* import Currency from "react-currency-formatter-v2"; */
 
 const BasketScreen = () => {
   const navigation = useNavigation();

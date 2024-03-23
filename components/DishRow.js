@@ -9,9 +9,12 @@ import {
   selectBasketItems,
   selectBasketItemsWithId,
 } from "../features/basketSlice";
-import CurrencyFormat from "react-currency-format";
+
+/* import CurrencyFormat from "react-currency-format"; */
 /* import Currency from "react-currency-format"; */
-import Currency from "react-currency-formatter-v2";
+/* import Currency from "react-currency-formatter-v2"; */
+
+
 
 const DishRow = ({ id, name, description, price, image, kcal, popular }) => {
   const [isPressed, setIsPressed] = useState(false);
