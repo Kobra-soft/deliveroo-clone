@@ -136,7 +136,7 @@ const AboutOurAppScreen = () => {
           style={{ fontFamily: "ibm_regular", fontSize: 13.333 }}
           className=" text-[#585c5d]"
         >
-          © 2013-23 Deliveroo.
+          © 2013-24 Deliveroo.
         </Text>
         <Text
           style={{ fontFamily: "ibm_regular", fontSize: 13.333 }}

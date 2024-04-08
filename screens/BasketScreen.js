@@ -126,7 +126,6 @@ const BasketScreen = () => {
                 £{items[0]?.price}
               </Text>
 
-              {/* REMOVE FROM BASKET ID / KEY !!!!!!!! */}
               <TouchableOpacity>
                 <Text
                   style={{ fontFamily: "ibm_regular", fontSize: 16 }}
@@ -153,7 +152,7 @@ const BasketScreen = () => {
               style={{ fontFamily: "ibm_light", fontSize: 14.666 }}
             >
               {/* £{basketTotal} */}
-              <Currency quantity={basketTotal} currency="GBP" />
+              {/* <Currency quantity={basketTotal} currency="GBP" /> */}
             </Text>
           </View>
           <View className="flex-row justify-between">
@@ -182,7 +181,7 @@ const BasketScreen = () => {
               style={{ fontFamily: "ibm_semibold", fontSize: 15.666 }}
             >
               {/* £{basketTotal + 2.99} */}
-              <Currency quantity={basketTotal + 2.99} currency="GBP" />
+              {/* <Currency quantity={basketTotal + 2.99} currency="GBP" /> */}
             </Text>
           </View>
 

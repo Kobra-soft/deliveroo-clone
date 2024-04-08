@@ -36,7 +36,7 @@ const BasketIcon = () => {
           style={{ fontFamily: "ibm_semibold", fontSize: 15 }}
         >
           {/* £{basketTotal}  */}
-          <Currency quantity={basketTotal} currency="GBP" />
+          {/* <Currency quantity={basketTotal} currency="GBP" /> */}
         </Text>
       </TouchableOpacity>
     </View>

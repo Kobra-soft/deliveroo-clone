@@ -14,7 +14,7 @@ import {
 /* import Currency from "react-currency-format"; */
 /* import Currency from "react-currency-formatter-v2"; */
 
-
+import NumberFormat from 'react-number-format';
 
 const DishRow = ({ id, name, description, price, image, kcal, popular }) => {
   const [isPressed, setIsPressed] = useState(false);
@@ -69,7 +69,8 @@ const DishRow = ({ id, name, description, price, image, kcal, popular }) => {
               >
                 {/* £{price}  */}
                 {/* <Currency quantity={price} currency="GBP" /> */}
-                <Currency quantity={price} currency="GBP" />
+
+                {/* <NumberFormat value={price} thousandSeparator={true} prefix={'£'} /> */}
 
                 <Text
                   style={{ fontFamily: "ibm_regular", fontSize: 14 }}
