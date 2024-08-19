@@ -69,9 +69,7 @@ const DrinkRow = ({ id, name, description, price, image, kcal, popular }) => {
             <TouchableOpacity>
               <AntDesign name="minuscircleo" size={22} color="#00ccbc" />
             </TouchableOpacity>
-
             <Text>0</Text>
-
             <TouchableOpacity>
               <AntDesign name="pluscircleo" size={22} color="#00ccbc" />
             </TouchableOpacity>

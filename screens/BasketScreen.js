@@ -13,6 +13,7 @@ import { urlFor } from "../sanity";
 import { Ionicons } from "@expo/vector-icons";
 import ArrowLeftIcon from "../assets/arrow_left.svg";
 /* import Currency from "react-currency-formatter-v2"; */
+// REPLACE with modern CurrencyFormat for higher SDK COMPATIBILITY
 
 const BasketScreen = () => {
   const navigation = useNavigation();
@@ -44,7 +45,7 @@ const BasketScreen = () => {
             >
               Basket
             </Text>
-            {/*             <Text
+            {/* <Text
               className="text-center text-[#ffffff]"
               style={{ fontFamily: "Stratos-Light", fontSize: 18 }}
             >

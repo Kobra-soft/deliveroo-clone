@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import HomeScreen from "./screens/HomeScreen";
+// DELETE RESTAURANT SCREEN IMPORT used for testing
 /* import RestaurantScreen from "./screens/RestaurantScreen"; */
 import RestaurantScreen2 from "./screens/RestaurantScreen2";
 import AccountScreen from "./screens/AccountScreen";
@@ -91,7 +92,7 @@ export default function App() {
               headerShown: false,
             }}
           />
-          {/*           <Stack.Screen name="Restaurant" component={RestaurantScreen} /> */}
+          {/* <Stack.Screen name="Restaurant" component={RestaurantScreen} /> */}
           <Stack.Screen name="Restaurant2" component={RestaurantScreen2} />
           <Stack.Screen
             name="Account"

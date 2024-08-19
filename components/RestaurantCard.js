@@ -64,7 +64,6 @@ const RestaurantCard = ({
         >
           {title}
         </Text>
-
         <View className="flex-row pl-0 items-center space-x-1 rounded-b-md">
           <Star fill="#007f8c" />
           <Text

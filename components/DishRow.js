@@ -9,12 +9,10 @@ import {
   selectBasketItems,
   selectBasketItemsWithId,
 } from "../features/basketSlice";
-
 /* import CurrencyFormat from "react-currency-format"; */
 /* import Currency from "react-currency-format"; */
 /* import Currency from "react-currency-formatter-v2"; */
-
-import NumberFormat from 'react-number-format';
+import NumberFormat from "react-number-format";
 
 const DishRow = ({ id, name, description, price, image, kcal, popular }) => {
   const [isPressed, setIsPressed] = useState(false);
@@ -27,7 +25,7 @@ const DishRow = ({ id, name, description, price, image, kcal, popular }) => {
     );
   };
 
-  /*   When at 0 disables button!!! */
+  /*   When at 0 disable button!!! */
   const removeItemFromBasket = () => {
     if (!items.length > 0) return;
 
@@ -38,7 +36,6 @@ const DishRow = ({ id, name, description, price, image, kcal, popular }) => {
     <>
       <View className="bg-white">
         <TouchableOpacity
-          // setIspressed to the opposite of pressed
           onPress={() => setIsPressed(!isPressed)}
           className={`bg-white ${isPressed && "border-white"}`}
         >
@@ -71,7 +68,6 @@ const DishRow = ({ id, name, description, price, image, kcal, popular }) => {
                 {/* <Currency quantity={price} currency="GBP" /> */}
 
                 {/* <NumberFormat value={price} thousandSeparator={true} prefix={'£'} /> */}
-
                 <Text
                   style={{ fontFamily: "ibm_regular", fontSize: 14 }}
                   className="text-[#ff8f20] mb-1"
@@ -103,11 +99,10 @@ const DishRow = ({ id, name, description, price, image, kcal, popular }) => {
                 <AntDesign
                   name="minuscircleo"
                   size={28}
-                  /* if theres items in the basket then colour is green, if not then gray! */
+                  /* if there are items in the basket then colour is green, if not then gray! */
                   color={items.length > 0 ? "#00cebd" : "gray"}
                 />
               </TouchableOpacity>
-
               <Text
                 style={{ fontFamily: "Stratos-Medium", fontSize: 17 }}
                 className="text-[#585c5b] text-center"

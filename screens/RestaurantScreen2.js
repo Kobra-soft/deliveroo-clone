@@ -159,7 +159,6 @@ const RestaurantScreen2 = () => {
               style={{
                 fontFamily: "ibm_regular",
                 fontSize: 14.333,
-                /* lineHeight: 25, */
               }}
               className="text-[#585c5d] text-left"
             >
@@ -174,7 +173,6 @@ const RestaurantScreen2 = () => {
               style={{
                 fontFamily: "ibm_regular",
                 fontSize: 14.333,
-                /* lineHeight: 25, */
               }}
               className="text-[#585c5d] text-left"
             >
@@ -188,7 +186,6 @@ const RestaurantScreen2 = () => {
                 style={{
                   fontFamily: "ibm_regular",
                   fontSize: 14.333,
-                  /*     lineHeight: 18, */
                 }}
                 className="text-[#00ccbc]"
               >
@@ -209,7 +206,6 @@ const RestaurantScreen2 = () => {
               style={{
                 fontFamily: "ibm_regular",
                 fontSize: 16,
-                /*                 lineHeight: 18, */
               }}
               className="text-[#2e3434]"
             >
@@ -219,7 +215,6 @@ const RestaurantScreen2 = () => {
               style={{
                 fontFamily: "ibm_regular",
                 fontSize: 14,
-                /*                 lineHeight: 18, */
               }}
               className="text-[#585c5b]"
             >
@@ -241,9 +236,6 @@ const RestaurantScreen2 = () => {
             resizeMode="stretch"
             className="ml-[0]"
           />
-
-          {/* <View className="flex-1 bg-red-400 mx-4 pt-1"> */}
-
           <View className="flex-1 bg-white mx-3 pt-1 bottom-1">
             <Text
               style={{ fontFamily: "ibm_regular", fontSize: 15.666 }}

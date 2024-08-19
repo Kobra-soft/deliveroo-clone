@@ -4,12 +4,12 @@ import { useSelector } from "react-redux";
 import { selectBasketItems, selectBasketTotal } from "../features/basketSlice";
 import { useNavigation } from "@react-navigation/native";
 /* import Currency from "react-currency-formatter-v2"; */
+// REPLACE with modern CurrencyFormat for higher SDK COMPATIBILITY
 
 const BasketIcon = () => {
   const items = useSelector(selectBasketItems);
   const navigation = useNavigation();
   const basketTotal = useSelector(selectBasketTotal);
-
   //if no items selected + then no bottom button showed for view basket icon
   if (items.length === 0) return null;
 

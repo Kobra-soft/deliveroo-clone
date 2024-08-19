@@ -6,7 +6,6 @@ import { ViewPropTypes } from "deprecated-react-native-prop-types";
 import { useNavigation } from "@react-navigation/native";
 import ArrowLeftIcon from "../assets/arrow_left.svg";
 import { MaterialCommunityIcons, Ionicons } from "@expo/vector-icons";
-
 import { openBrowserAsync } from "expo-web-browser";
 
 const AboutOurAppScreen = () => {
